@@ -1,0 +1,26 @@
+[project]
+name = "quantum-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.1",
+    "pandas>=3.0.3",
+    "pymatching>=2.4.0",
+    "qiskit>=2.5.0",
+    "qiskit-aer>=0.17.2",
+    "rich>=15.0.0",
+    "scipy>=1.18.0",
+    "stim>=1.16.0",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+    "tqdm>=4.69.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.0",
+    "pytest>=9.1.1",
+    "ruff>=0.15.22",
+]
